@@ -1,5 +1,7 @@
 # Weather-NFT
 A web app generating NFT images using real-time weather data. Uses Node.js, Express.js, Wagmi smart contract integration. Auto-updates NFTs every 6 hours. Perfect for exploring dynamic NFTs &amp; external data integration.
+![Project Thumbnail Youtube](https://github.com/verbwire/dynamic-Weather-NFT/assets/96954448/8773ccd0-0b62-4344-8f55-d56c1eaacde7)
+
 
 ## Prerequisites
 
