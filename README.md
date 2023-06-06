@@ -1,7 +1,39 @@
 # Weather-NFT
 A web app generating NFT images using real-time weather data. Uses Node.js, Express.js, Wagmi smart contract integration. Auto-updates NFTs every 6 hours. Perfect for exploring dynamic NFTs &amp; external data integration.
-![Project Thumbnail Youtube](https://github.com/verbwire/dynamic-Weather-NFT/assets/96954448/8773ccd0-0b62-4344-8f55-d56c1eaacde7)
 
+![Verbwire Project - Dynamic Weather NFT](https://github.com/verbwire/dynamic-Weather-NFT/assets/96954448/0b9a24c7-9e3b-42ea-9074-5f4d4b175eb8)
+
+
+## How the Project Works
+
+This section provides an overview of how the project works. It covers the steps involved in creating the contract, minting the NFTs, and updating the NFT metadata.
+
+### 1. Create the Contract
+
+To create the contract, follow these steps:
+
+- Use the provided Endpoint to create the contract. You can find more details in the [Verbwire API documentation](https://docs.verbwire.com/reference/post_nft-deploy-deploycontract).
+
+### 2. Minting the NFTs
+
+You have two options for minting the NFTs:
+
+#### Option 1: Using Endpoint
+
+- Use the provided Endpoint to mint the NFTs from a metadata URL. Refer to the [Verbwire API documentation](https://docs.verbwire.com/reference/post_nft-mint-mintfrommetadataurl) for more details.
+
+#### Option 2: Using Contract Write Function
+
+- Implement the contract write function named `mint(address recipient, string memory tokenURI, uint256 quantity) payable` within your application's codebase.
+- Provide the recipient's address, token URI (metadata URL), and the desired quantity as parameters when calling the `mint` function.
+- This function allows you to mint NFTs directly through the contract by interacting with its write functions.
+
+### 3. Updating the NFT Metadata
+
+To update the NFT metadata, follow these steps:
+
+- Use the provided Endpoint to update the token metadata. Details can be found in the [Verbwire API documentation](https://docs.verbwire.com/reference/post_nft-update-updatetokenmetadata).
+- This Endpoint allows you to update the metadata associated with an existing NFT. You can provide the token ID and the new metadata information to update.
 
 ## Prerequisites
 
@@ -9,6 +41,7 @@ Before running the project, ensure that you have the following dependencies inst
 
 - Node.js
 - npm (Node Package Manager)
+- Metamask Account
 
 ## Configuration
 
