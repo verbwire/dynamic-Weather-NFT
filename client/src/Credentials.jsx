@@ -6,6 +6,7 @@ const apiKey = ''
 const contractAddress = ''
 
 // Add Infura keys here.
+// get infuraKey from https://infura.io/
 const infuraKey = ''
 
 

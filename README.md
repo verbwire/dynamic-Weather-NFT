@@ -56,7 +56,7 @@ Inside the `Credentials.jsx` file, update the following values:
 
 - Verbwire API Key
 - Contract Address
-- Infura Key
+- Infura Key, get infura keys [here](https://infura.io/)
 
 ### Server
 
@@ -67,7 +67,7 @@ Inside the `credentials.js` file, update the following values:
 
 - Verbwire API Key
 - Contract Address
-- Weather API Key
+- Weather API Key, get the key [here](https://www.weatherapi.com/)
 
 ## Running the Application
 

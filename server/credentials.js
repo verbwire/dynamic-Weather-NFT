@@ -6,7 +6,8 @@ const apiKey = ''
 const contractAddress = ''
 
 
-// Add WeatherApi Key here. Get it on Weatherapi.com
+// Add WeatherApi Key here
+// get weatherAPIKey from https://www.weatherapi.com/
 const weatherAPIKey = ''
 
 // Add Location for the Weather.
